@@ -195,7 +195,7 @@
         }
 
         function gameOver() {
-            const tempo = `${minuto}:${segundos < 10 ? '0' + segundos : segundos}`;
+            const tempo = `Tempo sobrevivido: ${minuto}:${segundos < 10 ? '0' + segundos : segundos}`;
 
             if (!Swal.isVisible()) {
                 Swal.fire({
